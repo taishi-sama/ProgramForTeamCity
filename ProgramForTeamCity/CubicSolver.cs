@@ -25,11 +25,11 @@ namespace ProgramForTeamCity
             else
             {
                 if ( b * b - 4 * c * a > -EPS ) {
-                    return false;
+                    return true;
                 }
                 else
                 {
-                    return true;
+                    return false;
                 }
             }
         }
