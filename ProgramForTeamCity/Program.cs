@@ -17,7 +17,7 @@
             Console.WriteLine($"Has roots: {CubicSolver.IsSolvable(a, b, c)}");
             var (root1, root2) = CubicSolver.Solve(a, b, c);
             Console.WriteLine($"Root 1: {root1}, root 2: {root2}");
-            []
+
         }
     }
 }
